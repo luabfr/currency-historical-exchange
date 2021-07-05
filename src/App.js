@@ -6,14 +6,6 @@ import MyDatePicker from "./Components/MyDatePicker"
 import MyList from "./Components/MyList"
 
 
-const selectOptions = [
-	{ value: 'chocolate',label: 'Chocolate' },
-  { value: 'lucho',label: 'Lucho' },
-	{ value: 'strawberry',label: 'Strawberry' },
-	{ value: 'vanilla',label: 'Vanilla' }
-]
-
-const miFuncionParaManejarElEvento =""
 
 const myJson = [{
     value: "CAD",
@@ -54,7 +46,7 @@ function App() {
     <main className="App">
       <section className="container">
 
-        <h1>Histórico de cotizaciones {/*count*/}</h1>
+        <h1>Histórico de cotizaciones</h1>
 
         {/* 1 - Select: Moneda */}      
         <MySelect selectOptions={ myJson } test={"defaut-input"} label="Selecciona la moneda de referencia"/>
@@ -63,20 +55,13 @@ function App() {
         <MyDatePicker label="Ingresa la fecha de cotización"/>
 
         {/* 3 - Boton: Buscar cotizacion (btn primario) */}
-        <button className="btn" onClick={ 
-          () => setCount( myJson.push({
-            value: "WEA",
-            label: "WEA",
-            countryName: "WEA",
-            currency: "1.260046",
-            flag: "wea.jpg",}) )
-          }>
+        <button className="btn" onClick={ console.log("+=4") }>
           Buscar cotizaciones
         </button>
         {/* 4 - Lista de resultados */}
         <MyList myJson={myJson}/>
         {/* 5 - Boton: Ver mas cotizaciones (btn secundario) */}
-        <button className="btn btn-secondary" onClick={miFuncionParaManejarElEvento}>
+        <button className="btn btn-secondary" onClick={console.log("manejar evento")}>
           Ver más cotizaciones
         </button>
       </section>

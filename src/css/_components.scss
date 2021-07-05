@@ -1,0 +1,55 @@
+/* Select: Barra gris del select */
+.css-1okebmr-indicatorSeparator {
+	display: none;
+}
+
+
+
+/* List of Countries
+**************************/
+.MyList{
+	margin-top: 3rem;
+}
+.station:first-child {
+	//background-color:red !important;
+	border-top: 1px solid #ddd;
+	;
+}
+
+.station{
+	display: flex;
+	height: 3rem;
+	overflow: hidden;
+	align-items: stretch;
+	border-bottom: 1px solid #ddd;
+
+	.station--flag {
+		height: 3rem;
+		width: 3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			width: 2rem;
+			border-radius: 1rem;
+			height: 2rem;
+		}
+	}
+
+	.station--name {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		flex-grow: 4;
+		padding-left: 1.5rem;
+		
+	}
+
+	.station--amount {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 2;
+	}
+	
+}

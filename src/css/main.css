@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: normal;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.default-input {
+  box-shadow: 0.1rem 0.1rem 0.5rem 0 #3363;
+  border-radius: 0.5rem;
+}
+
+button {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  line-height: 1rem;
+  padding-top: 0.9rem;
+  border-radius: 1.5rem;
+  border: none !important;
+  background: #FF7141;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+.btn {
+  box-shadow: 0 0.5rem 1rem 0 #f666;
+}
+.btn.btn-secondary {
+  background: white !important;
+  color: #FF7141;
+  border: 1px solid #FF7141 !important;
+}
+
+/* Select
+*************************************/
+.css-yk16xz-control,
+.css-yk16xz-control:hover {
+  border: 1px solid #3330;
+  border-color: #3330 !important;
+  border-radius: 0.5rem !important;
+  min-height: 3rem !important;
+}
+
+.css-1pahdxg-control {
+  border-color: #3330 !important;
+  box-shadow: 0 0 0 0 #0000 !important;
+}
+
+.css-tj5bde-Svg {
+  color: #FD7141;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0 #3363;
+  border-radius: 0.5rem;
+}
+
+.react-datepicker__input-container {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.react-datepicker__input-container input {
+  border-radius: 0.5rem;
+  border: none !important;
+  width: 100%;
+  min-height: 3rem !important;
+  padding-left: 1rem;
+  color: #888;
+  font-size: 1rem;
+}
+
+.react-datepicker {
+  box-shadow: 0.1rem 0.1rem 0.5rem 0 #3363;
+  border: none !important;
+}
+
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before {
+  border-top-color: none !important;
+  border-bottom-color: none !important;
+}
+
+/* Select: Barra gris del select */
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+/* List of Countries
+**************************/
+.MyList {
+  margin-top: 3rem;
+}
+
+.station:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.station {
+  display: flex;
+  height: 3rem;
+  overflow: hidden;
+  align-items: stretch;
+  border-bottom: 1px solid #ddd;
+}
+.station .station--flag {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.station .station--flag img {
+  width: 2rem;
+  border-radius: 1rem;
+  height: 2rem;
+}
+.station .station--name {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-grow: 4;
+  padding-left: 1.5rem;
+}
+.station .station--amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.App {
+  text-align: left;
+  background: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 1.5rem;
+  padding-top: 5rem;
+}
+
+.container {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 1rem #2221;
+  padding: 5rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*
+sass --watch 'I:\Proyectos\Proy. Laborales\Proy. Web Design\Pruebas tecnicas\technisys\cotizar-monedas\src\css\main.scss' 'I:\Proyectos\Proy. Laborales\Proy. Web Design\Pruebas tecnicas\technisys\cotizar-monedas\src\css\main.css'
+*/
+
+/*# sourceMappingURL=main.css.map */

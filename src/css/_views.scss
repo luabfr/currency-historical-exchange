@@ -1,0 +1,47 @@
+
+.App {
+	text-align: left;
+	background: #F7F7F7;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	min-height: 100vh;
+	padding: 1.5rem;
+	padding-top: 5rem;	
+}
+
+.container{
+	background: white;
+	border-radius: .5rem;
+	box-shadow: 0 0 1rem 1rem #2221 ;
+	padding: 5rem; // En mobile esto cambia a "1.5rem"->hacer media-query
+
+}
+
+
+
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

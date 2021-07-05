@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//Fuentes
+$roboto: "Roboto",
+sans-serif;
+
+// Colores
+$primary-color: #FF7141;
+$shadow-1: 0.1rem 0.1rem .5rem 0 #3363;
+
+//Tamaños-espacio
+$input-h: 3rem;
+
+
+
+
+body{
+	font-family: Arial,		Helvetica,		sans-serif;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul{
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+
+h1{
+	font-size: 2.1rem;
+	font-weight: normal;
+}
+
+label {
+	display: block;
+	text-align: left;
+	margin-top: 2rem;
+	margin-bottom: .8rem;
+	font-size: 1.1rem;
+}
+
+.default-input{
+	box-shadow: $shadow-1;
+	border-radius: .5rem;
+
+}
+
+button{
+	width: 100%;
+	height: $input-h;
+
+	display: flex;
+	justify-content: center;
+	line-height: $input-h/3;
+	padding-top: $input-h/3-.1;
+
+	border-radius: $input-h/2;
+	border: none !important;
+	background: $primary-color;
+	color: white;
+	font-family: $roboto;
+	font-size: 1rem;
+	margin-top: $input-h;
+
+}
+.btn{
+	box-shadow: 0 .5rem 1rem 0 #f666;
+	&.btn-secondary {
+		background: white !important;
+		color: $primary-color;
+		border: 1px solid $primary-color !important;
+	}
+}
+
+
+
+
+
+/* Select
+*************************************/
+.css-yk16xz-control,
+.css-yk16xz-control:hover {
+	border: 1px solid #3330;
+	border-color: #3330 !important;
+	border-radius: .5rem !important;
+	min-height: $input-h !important;
+}
+.css-1pahdxg-control{
+ border-color: #3330 !important;
+ box-shadow: 0 0 0 0 #0000 !important;
+}
+
+
+
+//  container del svg (chevron)
+.css-tlfecz-indicatorContainer{
+	//width: 40px !important;					// tamaño del chevron
+}
+.css-tj5bde-Svg{	//chevron down
+	color: #FD7141;
+	// width: inherit !important; 		// tamaño del chevron
+}
+
+
+// Datepicker
+.react-datepicker-wrapper {
+	width: 100%;
+	box-shadow: $shadow-1;
+	border-radius: .5rem;
+}
+.react-datepicker__input-container{
+	overflow: hidden;
+	border-radius: .5rem;
+	//min-height: 3rem !important;
+}
+.react-datepicker__input-container input {
+	border-radius: .5rem;
+	border: none !important;
+	width: 100%;
+	min-height: $input-h !important;
+	padding-left: 1rem;
+	color: #888;
+	font-size: 1rem;
+}
+.react-datepicker{
+	box-shadow: $shadow-1;
+	border: none !important;
+}
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before{
+	border-top-color: none !important;
+	border-bottom-color: none !important;
+}

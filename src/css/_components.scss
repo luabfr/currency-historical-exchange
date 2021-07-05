@@ -1,3 +1,5 @@
+$primary-color: #FF7141;
+
 /* Select: Barra gris del select */
 .css-1okebmr-indicatorSeparator {
 	display: none;
@@ -5,7 +7,25 @@
 
 
 
-/* List of Countries
+.MyDatePicker{
+	position: relative;
+
+	.svg-container{
+		position: absolute;
+		right: .5rem;
+		top: 2.8rem;
+		color: $primary-color;
+	}
+}
+
+
+
+
+
+
+
+
+/* List: Countries
 **************************/
 .MyList{
 	margin-top: 3rem;

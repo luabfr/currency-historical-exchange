@@ -143,7 +143,17 @@ label {
   display: none;
 }
 
-/* List of Countries
+.MyDatePicker {
+  position: relative;
+}
+.MyDatePicker .svg-container {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.8rem;
+  color: #FF7141;
+}
+
+/* List: Countries
 **************************/
 .MyList {
   margin-top: 3rem;

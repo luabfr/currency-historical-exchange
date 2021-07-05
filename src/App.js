@@ -1,9 +1,9 @@
 import React , { useState }  from 'react'
 //import logo from './logo.svg';
 import './css/main.css';
-import MySelect from "./Components/MySelect/MySelect"
-import MyDatePicker from "./Components/MyDatePicker/MyDatePicker"
-import MyList from "./Components/MyList/MyList"
+import MySelect from "./Components/MySelect"
+import MyDatePicker from "./Components/MyDatePicker"
+import MyList from "./Components/MyList"
 
 
 const selectOptions = [

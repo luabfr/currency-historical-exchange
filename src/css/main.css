@@ -143,14 +143,23 @@ label {
   display: none;
 }
 
+.css-tlfecz-indicatorContainer svg {
+  transform: scale(1.5);
+  margin-right: 0.5rem;
+}
+
 .MyDatePicker {
   position: relative;
 }
 .MyDatePicker .svg-container {
   position: absolute;
   right: 0.5rem;
-  top: 2.8rem;
+  top: 2.6rem;
   color: #FF7141;
+}
+.MyDatePicker svg {
+  height: 2.4rem;
+  margin-right: 0.3rem;
 }
 
 /* List: Countries
@@ -178,9 +187,10 @@ label {
   align-items: center;
 }
 .station .station--flag img {
-  width: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 1rem;
-  height: 2rem;
+  object-fit: cover;
 }
 .station .station--name {
   display: flex;
@@ -212,11 +222,12 @@ label {
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem 1rem #2221;
   padding: 1.5rem;
+  padding-top: 5rem;
 }
 
 @media (min-width: 768px) {
   .container {
-    padding: 1rem 5rem 3rem;
+    padding: 5rem 5rem 3rem;
   }
 }
 /*

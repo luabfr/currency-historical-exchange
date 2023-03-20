@@ -20,56 +20,11 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
-ul{
-	padding: 0;
-}
-li {
-	list-style: none;
-}
-
-h1{
-	font-size: 2.1rem;
-	font-weight: normal;
-	margin-top: 0;
-}
-
-label {
-	display: block;
-	text-align: left;
-	margin-top: 2rem;
-	margin-bottom: .8rem;
-	font-size: 1.1rem;
-}
 
 .default-input{
 	box-shadow: $shadow-1;
 	border-radius: .5rem;
 
-}
-
-.btn{
-	width: 100%;
-	height: $input-h;
-
-	display: flex;
-	justify-content: center;
-	line-height: $input-h/3;
-	padding-top: $input-h/3-.1;
-
-	border-radius: $input-h/2;
-	border: none !important;
-	background: $primary-color;
-	color: white;
-	font-family: $roboto;
-	font-size: 1rem;
-	margin-top: $input-h;
-
-	box-shadow: 0 .5rem 1rem 0 #f666;
-	&.btn-secondary {
-		background: white !important;
-		color: $primary-color;
-		border: 1px solid $primary-color !important;
-	}
 }
 
 
@@ -124,6 +79,10 @@ label {
 	padding-left: 1rem;
 	color: #888;
 	font-size: 1rem;
+	outline: none !important; 
+	&:focus-visible{
+		outline: none !important; 
+	}
 }
 .react-datepicker{
 	box-shadow: $shadow-1;
